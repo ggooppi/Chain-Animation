@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCB8C0BA23C20B7800C6467F /* GraphCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB8C0B923C20B7800C6467F /* GraphCollectionViewCell.swift */; };
+		CCB8C0C723C2185100C6467F /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = CCB8C0C623C2185100C6467F /* Charts */; };
+		CCD1D50223C067370031A4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1D50123C067370031A4F1 /* AppDelegate.swift */; };
+		CCD1D50423C067370031A4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1D50323C067370031A4F1 /* SceneDelegate.swift */; };
+		CCD1D50623C067370031A4F1 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD1D50523C067370031A4F1 /* ParentViewController.swift */; };
+		CCD1D50923C067370031A4F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD1D50723C067370031A4F1 /* Main.storyboard */; };
+		CCD1D50B23C067390031A4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD1D50A23C067390031A4F1 /* Assets.xcassets */; };
+		CCD1D50E23C067390031A4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD1D50C23C067390031A4F1 /* LaunchScreen.storyboard */; };
+		CCE8FF4E23C123B500B9FA29 /* WateringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8FF4D23C123B500B9FA29 /* WateringViewController.swift */; };
+		CCE8FF5123C12BC500B9FA29 /* LabelCountAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8FF5023C12BC500B9FA29 /* LabelCountAnimation.swift */; };
+		CCE8FF5323C13D8500B9FA29 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8FF5223C13D8500B9FA29 /* GraphViewController.swift */; };
+		CCE8FF5623C1BA9B00B9FA29 /* CollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8FF5523C1BA9B00B9FA29 /* CollapseView.swift */; };
+		CCE8FF5923C1BFFA00B9FA29 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8FF5823C1BFFA00B9FA29 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCB8C0B923C20B7800C6467F /* GraphCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCD1D4FE23C067370031A4F1 /* Zoho Assesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoho Assesment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD1D50123C067370031A4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCD1D50323C067370031A4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCD1D50523C067370031A4F1 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		CCD1D50823C067370031A4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD1D50A23C067390031A4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD1D50D23C067390031A4F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD1D50F23C067390031A4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE8FF4D23C123B500B9FA29 /* WateringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WateringViewController.swift; sourceTree = "<group>"; };
+		CCE8FF5023C12BC500B9FA29 /* LabelCountAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCountAnimation.swift; sourceTree = "<group>"; };
+		CCE8FF5223C13D8500B9FA29 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		CCE8FF5523C1BA9B00B9FA29 /* CollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseView.swift; sourceTree = "<group>"; };
+		CCE8FF5823C1BFFA00B9FA29 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD1D4FB23C067370031A4F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8C0C723C2185100C6467F /* Charts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCB8C0B823C20B5800C6467F /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8C0B923C20B7800C6467F /* GraphCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		CCD1D4F523C067370031A4F1 = {
+			isa = PBXGroup;
+			children = (
+				CCD1D50023C067370031A4F1 /* Zoho Assesment */,
+				CCD1D4FF23C067370031A4F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD1D4FF23C067370031A4F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1D4FE23C067370031A4F1 /* Zoho Assesment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD1D50023C067370031A4F1 /* Zoho Assesment */ = {
+			isa = PBXGroup;
+			children = (
+				CCB8C0B823C20B5800C6467F /* Custom Cells */,
+				CCE8FF4F23C12BAD00B9FA29 /* Utils */,
+				CCE8FF4B23C11D2200B9FA29 /* App Delegate */,
+				CCE8FF4A23C11D1000B9FA29 /* Storyboard */,
+				CCE8FF4C23C11D3100B9FA29 /* View Controller */,
+				CCD1D50A23C067390031A4F1 /* Assets.xcassets */,
+				CCD1D50F23C067390031A4F1 /* Info.plist */,
+			);
+			path = "Zoho Assesment";
+			sourceTree = "<group>";
+		};
+		CCE8FF4A23C11D1000B9FA29 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1D50C23C067390031A4F1 /* LaunchScreen.storyboard */,
+				CCD1D50723C067370031A4F1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CCE8FF4B23C11D2200B9FA29 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1D50123C067370031A4F1 /* AppDelegate.swift */,
+				CCD1D50323C067370031A4F1 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		CCE8FF4C23C11D3100B9FA29 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCD1D50523C067370031A4F1 /* ParentViewController.swift */,
+				CCE8FF4D23C123B500B9FA29 /* WateringViewController.swift */,
+				CCE8FF5223C13D8500B9FA29 /* GraphViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		CCE8FF4F23C12BAD00B9FA29 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CCE8FF5723C1BFE900B9FA29 /* Extensions */,
+				CCE8FF5423C1BA7F00B9FA29 /* Collapse View */,
+				CCE8FF5023C12BC500B9FA29 /* LabelCountAnimation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CCE8FF5423C1BA7F00B9FA29 /* Collapse View */ = {
+			isa = PBXGroup;
+			children = (
+				CCE8FF5523C1BA9B00B9FA29 /* CollapseView.swift */,
+			);
+			path = "Collapse View";
+			sourceTree = "<group>";
+		};
+		CCE8FF5723C1BFE900B9FA29 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CCE8FF5823C1BFFA00B9FA29 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD1D4FD23C067370031A4F1 /* Zoho Assesment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD1D51223C067390031A4F1 /* Build configuration list for PBXNativeTarget "Zoho Assesment" */;
+			buildPhases = (
+				CCD1D4FA23C067370031A4F1 /* Sources */,
+				CCD1D4FB23C067370031A4F1 /* Frameworks */,
+				CCD1D4FC23C067370031A4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoho Assesment";
+			packageProductDependencies = (
+				CCB8C0C623C2185100C6467F /* Charts */,
+			);
+			productName = "Zoho Assesment";
+			productReference = CCD1D4FE23C067370031A4F1 /* Zoho Assesment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD1D4F623C067370031A4F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					CCD1D4FD23C067370031A4F1 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CCD1D4F923C067370031A4F1 /* Build configuration list for PBXProject "Zoho Assesment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD1D4F523C067370031A4F1;
+			packageReferences = (
+				CCB8C0C523C2185100C6467F /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = CCD1D4FF23C067370031A4F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD1D4FD23C067370031A4F1 /* Zoho Assesment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD1D4FC23C067370031A4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD1D50E23C067390031A4F1 /* LaunchScreen.storyboard in Resources */,
+				CCD1D50B23C067390031A4F1 /* Assets.xcassets in Resources */,
+				CCD1D50923C067370031A4F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD1D4FA23C067370031A4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE8FF5123C12BC500B9FA29 /* LabelCountAnimation.swift in Sources */,
+				CCD1D50623C067370031A4F1 /* ParentViewController.swift in Sources */,
+				CCD1D50223C067370031A4F1 /* AppDelegate.swift in Sources */,
+				CCE8FF5323C13D8500B9FA29 /* GraphViewController.swift in Sources */,
+				CCD1D50423C067370031A4F1 /* SceneDelegate.swift in Sources */,
+				CCE8FF4E23C123B500B9FA29 /* WateringViewController.swift in Sources */,
+				CCE8FF5623C1BA9B00B9FA29 /* CollapseView.swift in Sources */,
+				CCB8C0BA23C20B7800C6467F /* GraphCollectionViewCell.swift in Sources */,
+				CCE8FF5923C1BFFA00B9FA29 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCD1D50723C067370031A4F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD1D50823C067370031A4F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD1D50C23C067390031A4F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD1D50D23C067390031A4F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD1D51023C067390031A4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCD1D51123C067390031A4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD1D51323C067390031A4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5AD6R37K9;
+				INFOPLIST_FILE = "Zoho Assesment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gopi.Zoho-Assesment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD1D51423C067390031A4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5AD6R37K9;
+				INFOPLIST_FILE = "Zoho Assesment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gopi.Zoho-Assesment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD1D4F923C067370031A4F1 /* Build configuration list for PBXProject "Zoho Assesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD1D51023C067390031A4F1 /* Debug */,
+				CCD1D51123C067390031A4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD1D51223C067390031A4F1 /* Build configuration list for PBXNativeTarget "Zoho Assesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD1D51323C067390031A4F1 /* Debug */,
+				CCD1D51423C067390031A4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCB8C0C523C2185100C6467F /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCB8C0C623C2185100C6467F /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCB8C0C523C2185100C6467F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CCD1D4F623C067370031A4F1 /* Project object */;
+}
