@@ -78,6 +78,7 @@ extension ParentViewController: UIViewAnimationHandler{
                 if state == CardState.expanded.rawValue {
                     if givenView == ViewName.bottom.rawValue{
                         self.bottomViewController.view.frame.origin.y = self.view.frame.height - expandHeight
+                        self.topViewController.view.frame.origin.y = self.view.frame.height - self.cardHandleAreaHeight - collapseHeight
                     }else{
                         self.topViewController.view.frame.origin.y = self.view.frame.height - self.cardHandleAreaHeight - expandHeight + 10
                     }

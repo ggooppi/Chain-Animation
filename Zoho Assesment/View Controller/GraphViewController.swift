@@ -35,6 +35,7 @@ class GraphViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         setupUI()
+        setupChart()
     }
     
     func setupUI() {
@@ -120,7 +121,6 @@ class GraphViewController: UIViewController {
         case .ended:
             delegate.animateTransitionIfNeeded(givenView: ViewName.top.rawValue, cardVisible: cardVisible, state: nextState.rawValue, duration: 0.9, expandHeight: cardHeight, collapseHeight: cardHandleAreaHeight, blurBackground: false) {[weak self] (status) in
                 self?.cardVisible = status
-                self?.setupChart()
             }
         //            animateTransitionIfNeeded(state: nextState, duration: 0.9)
         default:
@@ -137,7 +137,6 @@ class GraphViewController: UIViewController {
         case .began:
             delegate.startInteractiveTransition(view: ViewName.top.rawValue, cardVisible: cardVisible, state: nextState.rawValue, duration: 0.9, expandHeight: cardHeight, collapseHeight: cardHandleAreaHeight, blurBackground: false) {[weak self] (status) in
                 self?.cardVisible = status
-                self?.setupChart()
             }
         case .changed:
             let translation = recognizer.translation(in: self.view)
@@ -178,6 +177,7 @@ extension GraphViewController: UICollectionViewDataSource, UICollectionViewDeleg
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        setupChart()
         if let callback = self.callback{
             callback(items[indexPath.row])
         }
